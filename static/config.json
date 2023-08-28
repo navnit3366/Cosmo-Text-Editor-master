@@ -1,0 +1,39 @@
+{
+	"style":[
+		{
+		"bg":"#343D46",
+		"fg":"#fff",
+		"relief" :"flat",
+		"font" : ["Consolas" ,14  , "italic"],
+		"images" : ["static/python.png" ,"static/new.png" 
+			, "static/save.png" , "static/open.png"  , "static/file.png" ,
+			"static/files.png"]
+		}
+	],
+	"root-config" : [
+		{
+		"bg-root":"#343D46",
+		"geometry" : "900x550+180+150",
+		"title" : "",
+		"icon":"static/text.ico" , 
+		"Extra-data" :[" function() :\n\tpass" , " open('') as f:\n\tf.read()" , 
+		"<!DOCTYPE html>\n<html>\n<head>\n<title></title>\n</head>\n<body>\n</body>\n</html>",
+	     "enevts :\nF5 run python file\nF2 run javascript file\nAlt-o open file \nAlt-n open new file\nAlt-s save file\n" ,"C:/Users/pc/Desktop"]
+		}
+	],
+	 "style-on-event":[
+		{
+		"Enter":"#3a3a3a",
+		"Leave":"#11111d",
+		"activebackground":"#11111d",
+		"activeforeground":"#00ffff"
+		}
+	],
+	 "about":[
+	 	{
+	 		"author" : "Abdulrahim Mokhnache",
+	 		"email" :"rahimcdm@gmail.com"
+	 	}
+	 ]
+
+}
